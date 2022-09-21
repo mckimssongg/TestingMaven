@@ -7,7 +7,7 @@ public class Demo {
         System.out.println("este es un test");
     }
     @Test
-    public void secondTestExample(){
+    public void secondTestExample() {
         System.out.println("este es otro test");
     }
 }
