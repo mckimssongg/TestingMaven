@@ -2,7 +2,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="TestNG Examples">
 
-    <test name="Class Execution">
+    <test name="Parameters">
+        <parameter name="int1" value="10"></parameter>
+        <parameter name="int2" value="9"></parameter>
+        <classes>
+            <class name="testing.dataprovider.ParametersExample"></class>
+        </classes>
+    </test>
+    <!--<test name="Class Execution">
         <classes>
             <class name="Demo"></class>
         </classes>
@@ -16,6 +23,6 @@
         <packages>
             <package name="testing.attributestest"></package>
         </packages>
-    </test>
+    </test>-->
 
 </suite>
