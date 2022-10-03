@@ -6,12 +6,12 @@
         <parameter name="int1" value="10"></parameter>
         <parameter name="int2" value="9"></parameter>
         <classes>
-            <class name="testing.dataprovider.ParametersExample"></class>
+            <class name="testng.dataprovider.ParametersExample"></class>
         </classes>
     </test>
     <test name="Class Execution">
         <classes>
-            <class name="testing.Demo"></class>
+            <class name="testng.Demo"></class>
         </classes>
     </test>
     <test name="group Example">
@@ -21,7 +21,7 @@
             </run>
         </groups>
         <packages>
-            <package name="testing.attributestest"></package>
+            <package name="testng.attributestest"></package>
         </packages>
     </test>
 

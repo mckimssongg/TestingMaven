@@ -4,7 +4,7 @@
 
     <test name="isuitetest">
         <classes>
-            <class name="testing.listeners.isuitelistener.FirstTestClass"/>
+            <class name="testng.listeners.isuitelistener.FirstTestClass"/>
         </classes>
     </test>
 
